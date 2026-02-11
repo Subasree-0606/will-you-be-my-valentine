@@ -1,13 +1,18 @@
 body {
-    background-color: white;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    font-family: Arial, sans-serif;
+
+    background-image: url("../images/bg.jpg");
+    background-size: cover;        /* makes image full screen */
+    background-position: center;   /* center the image */
+    background-repeat: no-repeat;  /* prevents repeat */
+    background-attachment: fixed;  /* keeps it fixed while scrolling */
+
+    text-align: center;
+    color: white;
 }
+
 
 .buttons {
     display: flex;
@@ -128,4 +133,8 @@ body {
         align-items: center;
         width: 100%;
     }
+}
+
+h1, h2, p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
