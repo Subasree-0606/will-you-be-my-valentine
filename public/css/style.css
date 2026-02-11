@@ -8,11 +8,20 @@ body {
     background-position: center;   /* center the image */
     background-repeat: no-repeat;  /* prevents repeat */
     background-attachment: fixed;  /* keeps it fixed while scrolling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
 
     text-align: center;
     color: white;
 }
 
+h1, h2, h3 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
 
 .buttons {
     display: flex;
@@ -74,16 +83,13 @@ body {
     display: none;
 }
 
-.banner-gif {
-    width: 100%;
-    height: auto;
+#banner {
+    width: 300px;
+    max-width: 80%;
+    border-radius: 15px;
     margin-top: 20px;
-
-    img {
-        width: auto;
-        height: 250px;
-    }
 }
+
 
 .language-selector {
     margin-top: 30px;
@@ -135,6 +141,4 @@ body {
     }
 }
 
-h1, h2, p {
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
+
