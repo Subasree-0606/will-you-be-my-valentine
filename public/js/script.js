@@ -124,11 +124,11 @@ function changeLanguage() {
     // Update question heading
     const questionHeading = document.getElementById("question-heading");
     if (language === "Kannada") {
-        questionHeading.textContent = "Neenu nanna gandana aagthiya🫣?";
+        questionHeading.textContent = "Neenu nanna gandana aagthiya Li🫣?";
     } else if (language === "Tamil") {
         questionHeading.textContent = "நீ என் வாழ்க்கை துணையாக இருப்பாயா🫣?";
     } else {
-        questionHeading.textContent = "Will you be my Li purush🫣?";
+        questionHeading.textContent = "Will you be my purush Li🫣?";
     }
 
     // Reset yes button text
@@ -146,8 +146,8 @@ function changeLanguage() {
     if (language === "Kannada") {
         successMessage.textContent = "Yepppieee! Thumba happy, see you soon aaa😍! :3";
     } else if (language === "Tamil") {
-        successMessage.textContent = "யேப்பீ! சீக்கிரமே பார்க்கலாம் 😍 :3";
+        successMessage.textContent = "யேப்பீ! சீக்கிரமே பார்க்கலாம் 😍!";
     } else {
-        successMessage.textContent = "Yepppie, see you sooonnn😍 :3";
+        successMessage.textContent = "Yepppie, see you sooonnn😍!";
     }
 }

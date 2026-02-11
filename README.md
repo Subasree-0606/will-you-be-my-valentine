@@ -5,11 +5,7 @@
 
 # Contributions
 
-- A french & thai version of the above have been added to the site. Use the language selecter :D
-- All thanks to [YidirK](https://github.com/YidirK) for the Kannada translation.
-- All thanks to [RayeMilk](https://github.com/RayeMilk) for the tamil translation.
+- A Kannada & tamil version of the above have been added to the site. Use the language selecter :D
 
----
 
-# Will-you-be-my-valentine-Li-project-
-Surprise
+
